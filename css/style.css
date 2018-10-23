@@ -60,6 +60,10 @@ a:hover {
     color: #0097A7;
 }
 
+h1:hover {
+    color: #0097A7;
+}
+
 strong {
     font-weight: bold;
     color: #0097A7;
