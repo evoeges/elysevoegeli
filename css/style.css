@@ -1,4 +1,4 @@
-h1 {
+h1, h2 {
     text-align: center;
     color: #424242;
     font-size: 50px;
@@ -6,7 +6,6 @@ h1 {
     padding-top:40px;
     font-family:   ;
 }
-
 
 .container {
     position: relative;
@@ -60,7 +59,7 @@ a:hover {
     color: #0097A7;
 }
 
-h1:hover {
+h2:hover {
     color: #0097A7;
 }
 
