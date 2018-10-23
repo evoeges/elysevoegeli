@@ -53,3 +53,13 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: center; 
 }
+
+a:hover {
+    text-decoration:none;
+    font-weight:none;
+}
+
+strong {
+    font-weight: bold;
+    color: #0097A7;
+}
