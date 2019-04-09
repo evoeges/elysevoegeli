@@ -50,7 +50,7 @@ h1, h2 {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center; 
+    text-align: center;
 }
 
 a:hover {
@@ -70,4 +70,72 @@ strong {
 
 .rowbottom{
     padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1, h2 {
+      text-align: center;
+      color: #424242;
+      font-size: 200%;
+      padding: 7%;
+      padding-top:10%;
+      font-family:   ;
+  }
+
+  .container {
+      position: relative;
+      width: 80%;
+  }
+
+  .image {
+      display: block;
+      padding-top: 50px;
+      width: 90%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+
+  .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: .5;
+      transition: .5s ease;
+      background-color: #ffffff;
+
+  }
+
+  .container:hover .overlay {
+      opacity: .75;
+  }
+
+  .text {
+      color: #424242;
+      font-size: 23px;
+      font-family: Calibri;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+
+  a:hover {
+      text-decoration:none;
+      font-weight:none;
+      color: #0097A7;
+  }
+
+  h2:hover {
+      color: #0097A7;
+  }
+
 }
