@@ -105,18 +105,18 @@ strong {
       right: 0;
       height: 100%;
       width: 100%;
-      opacity: .5;
+      opacity: 1;
       transition: .5s ease;
       background-color: #ffffff;
 
   }
 
   .container:hover .overlay {
-      opacity: .75;
+      opacity: 0;
   }
 
   .text {
-      color: #424242;
+      color: white;
       font-size: 23px;
       font-family: Calibri;
       position: absolute;
