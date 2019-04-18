@@ -53,6 +53,13 @@ h1, h2 {
     text-align: center;
 }
 
+.about {
+    color: #424242;
+    font-size: 23px;
+    font-family: Calibri;
+    text-align: center;
+}
+
 a:hover {
     text-decoration:none;
     font-weight:none;
