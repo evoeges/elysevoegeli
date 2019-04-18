@@ -79,7 +79,6 @@ strong {
       font-size: 200%;
       padding: 7%;
       padding-top:10%;
-      font-family:   ;
   }
 
   .container {
@@ -98,34 +97,25 @@ strong {
   }
 
   .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
       height: 100%;
       width: 100%;
       opacity: 1;
-      transition: .5s ease;
-      background-color: #ffffff;
+      background-color: rgb(0,0,0,0);
 
   }
 
   .container:hover .overlay {
-      opacity: 0;
+      opacity: 1;
   }
 
   .text {
-      color: white;
-      font-size: 23px;
-      font-family: Calibri;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #424242;
+    font-size: 150%;
   }
 
   a:hover {
@@ -136,6 +126,10 @@ strong {
 
   h2:hover {
       color: #0097A7;
+  }
+
+  .art_pages .text{
+    display: none;
   }
 
 }
