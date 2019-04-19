@@ -122,7 +122,7 @@ strong {
     transform: translate(-50%, -50%);
     color: white;
     background-color: #424242;
-    font-size: 150%;
+    font-size: 130%;
   }
 
   a:hover {
@@ -137,6 +137,12 @@ strong {
 
   .art_pages .text{
     display: none;
+  }
+
+  .about {
+
+      font-size: 130%;
+    
   }
 
 }
