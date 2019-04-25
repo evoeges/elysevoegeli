@@ -57,6 +57,10 @@ h1, h2 {
     text-align: center;
 }
 
+.about a{
+  color: black;
+}
+
 a:hover {
     text-decoration:none;
     font-weight:none;
