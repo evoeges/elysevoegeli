@@ -20,6 +20,15 @@ h1, h2 {
     margin-right: auto;
 }
 
+p {
+
+  size: 130%;
+}
+
+.description_section{
+ padding-bottom: 5%;
+}
+
 .header_image{
   width: 100%;
 }
