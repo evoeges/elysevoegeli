@@ -31,6 +31,8 @@ p {
 
 .header_image{
   width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .overlay {
     position: absolute;
