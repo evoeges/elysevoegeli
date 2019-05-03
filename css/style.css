@@ -20,6 +20,9 @@ h1, h2 {
     margin-right: auto;
 }
 
+.header_image{
+  width: 100%;
+}
 .overlay {
     position: absolute;
     top: 0;
@@ -78,6 +81,10 @@ strong {
 
 .rowbottom{
     padding-bottom: 30px;
+}
+
+a {
+  color: #757575;
 }
 
 @media only screen and (max-width: 600px) {
