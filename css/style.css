@@ -29,7 +29,7 @@ h1, h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  
+
 }
 
 p {
@@ -228,5 +228,11 @@ a {
   .container-fluid{
     width: 95%;
   }
+
+  .art_pages{
+    width: 100%;
+  }
+
+
 
 }
