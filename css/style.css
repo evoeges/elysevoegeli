@@ -34,6 +34,20 @@ p {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+.pacman{
+  width: 70%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body_images{
+  width: 50%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .overlay {
     position: absolute;
     top: 0;
