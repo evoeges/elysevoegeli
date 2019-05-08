@@ -53,6 +53,14 @@ p {
     margin-right: auto;
 }
 
+.image_caption{
+  font-size: 90%;
+  text-align: center;
+  font-style: italic;
+  padding-top: 1%;
+
+}
+
 .body_images_horizontal{
   width: 100%;
   display: block;
