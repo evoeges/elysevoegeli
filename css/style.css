@@ -22,6 +22,16 @@ h1, h2 {
 
 }
 
+.art_image {
+    display: block;
+    margin-top: 50px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
 p {
 
   size: 130%;
