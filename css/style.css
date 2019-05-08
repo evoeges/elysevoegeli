@@ -198,4 +198,8 @@ a {
       font-size: 130%;
   }
 
+  .container-fluid{
+    width: 95%;
+  }
+
 }
