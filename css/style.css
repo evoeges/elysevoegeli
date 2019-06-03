@@ -156,8 +156,10 @@ strong {
 
 a {
   color: #0097A7;
+  text-decoration: none;
 }
 a:hover{
+  text-decoration: none;
   background-color: #0097A7;
   color: white;
   -webkit-transition: all .3s ease-in-out;
@@ -170,6 +172,16 @@ a:hover{
   padding-top: 50px;
 }
 
+.small_link{
+color: #9E9E9E;
+text-align: center;
+padding-bottom: 5%;
+}
+
+.mobile_only{
+  display:none;
+}
+
 @media only screen and (max-width: 600px) {
   h1, h2 {
       text-align: center;
@@ -177,6 +189,10 @@ a:hover{
       font-size: 200%;
       padding: 7%;
       padding-top:10%;
+  }
+
+  .mobile_only{
+    display: block;
   }
 
   .index_row{
