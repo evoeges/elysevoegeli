@@ -41,6 +41,15 @@ p {
  padding-bottom: 5%;
 }
 
+.skills{
+  font-size: 80%;
+  text-align: center;
+  padding-top: 5%;
+  color: #9E9E9E;
+
+
+
+}
 .header_image{
   width: 100%;
   padding-top: 5%;
@@ -137,7 +146,7 @@ h2:hover {
 
 strong {
     font-weight: bold;
-    color: #0097A7;
+    color: #424242;
 }
 
 .rowbottom{
@@ -145,7 +154,15 @@ strong {
 }
 
 a {
-  color: #757575;
+  color: #0097A7;
+}
+a:hover{
+  background-color: #0097A7;
+  color: white;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .index_row{
