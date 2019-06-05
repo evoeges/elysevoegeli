@@ -196,6 +196,17 @@ padding-bottom: 5%;
   color: none;
 }
 
+@media only screen and (max-width: 900px) {
+
+  .desktop_only{
+    display: none;
+  }
+
+  .mobile_only{
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   h1, h2 {
       text-align: center;
