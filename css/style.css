@@ -23,6 +23,11 @@ h1, h2 {
 
 }
 
+.trustpatternsimage{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .art_image {
     display: block;
     margin-top: 50px;
