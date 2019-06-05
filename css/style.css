@@ -23,10 +23,14 @@ h1, h2 {
 
 }
 
-.trustpatternsimage{
+.imagepadding{
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
+
+
 
 .art_image {
     display: block;
@@ -58,8 +62,8 @@ p {
 }
 .header_image{
   width: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -186,6 +190,10 @@ padding-bottom: 5%;
 
 .mobile_only{
   display:none;
+}
+
+.header_image a:hover {
+  color: none;
 }
 
 @media only screen and (max-width: 600px) {
