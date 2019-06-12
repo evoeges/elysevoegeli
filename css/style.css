@@ -23,6 +23,12 @@ h1, h2 {
 
 }
 
+.profiles{
+  border-style: solid;
+  border-color: #E0E0E0;
+  border-width: 2px;
+}
+
 .imagepadding{
   padding-left: 5%;
   padding-right: 5%;
