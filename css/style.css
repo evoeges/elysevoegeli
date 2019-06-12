@@ -213,6 +213,18 @@ padding-bottom: 5%;
   }
 }
 
+.heart_icon{
+  width: 15px;
+  height: 15px;
+  color: #0097A7;
+}
+
+.made_link{
+  font-size: 80%;
+  color: #9E9E9E;
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   h1, h2 {
       text-align: center;
