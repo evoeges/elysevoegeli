@@ -225,6 +225,10 @@ padding-bottom: 5%;
   text-align: center;
 }
 
+.header{
+  position: sticky;
+}
+
 @media only screen and (max-width: 600px) {
   h1, h2 {
       text-align: center;
