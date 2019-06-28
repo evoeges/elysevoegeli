@@ -225,6 +225,10 @@ padding-bottom: 5%;
   text-align: center;
 }
 
+.swatch{
+  width: 100%;
+}
+
 .header{
   position: sticky;
 }
