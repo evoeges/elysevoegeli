@@ -1,3 +1,9 @@
+:root {
+  --pop-color: #008290;
+}
+
+
+
 h1, h2 {
     text-align: center;
     color: #424242;
@@ -131,7 +137,7 @@ p {
     transform: translate(-50%, -50%);
     text-align: center;
     opacity: 1;
-    background: #0097A7;
+    background: var(--pop-color);
     border-radius: 5px;
     padding: 1%;
     padding-left: 2%;
@@ -158,12 +164,12 @@ p {
 .icon_link a:hover {
     text-decoration:none;
     font-weight:none;
-    color: #0097A7;
+    color: var(--pop-color);
     background: none;
 }
 
 h2:hover {
-    color: #0097A7;
+    color: var(--pop-color);
 }
 
 strong {
@@ -176,12 +182,12 @@ strong {
 }
 
 a {
-  color: #0097A7;
+  color: var(--pop-color);
   text-decoration: none;
 }
 a:hover{
   text-decoration: none;
-  background-color: #0097A7;
+  background-color: var(--pop-color);
   color: white;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -221,7 +227,7 @@ padding-bottom: 5%;
 .heart_icon{
   width: 15px;
   height: 15px;
-  color: #0097A7;
+  color: var(--pop-color);
 }
 
 .made_link{
@@ -340,7 +346,7 @@ padding-bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: #0097A7;
+    background-color: var(--pop-color);
     font-size: 130%;
     padding: 1%;
     padding-left: 2%;
@@ -350,11 +356,11 @@ padding-bottom: 5%;
   a:hover {
       text-decoration:none;
       font-weight:none;
-      color: #0097A7;
+      color: var(--pop-color);
   }
 
   h2:hover {
-      color: #0097A7;
+      color: var(--pop-color);
   }
 
 
