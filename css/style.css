@@ -2,6 +2,14 @@
   --pop-color: #008290;
 }
 
+a.about_link {
+      color: black;
+  }
+
+  a.about_link:hover{
+    color: var(--pop-color);
+    background-color:white;
+  }
 
 
 h1 {
@@ -375,12 +383,6 @@ padding-bottom: 5%;
     width: 100%;
   }
 
-  #about_link {
-        color: black !important;
-    }
 
-    #about_link:hover{
-      color: var(--pop-color);
-    }
 
 }
