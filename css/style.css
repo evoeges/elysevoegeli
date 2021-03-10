@@ -4,7 +4,7 @@
 
 
 
-h1, h2 {
+h1 {
     text-align: center;
     color: #424242;
     font-size: 50px;
@@ -168,9 +168,7 @@ p {
     background: none;
 }
 
-h2:hover {
-    color: var(--pop-color);
-}
+
 
 strong {
     font-weight: bold;
@@ -253,13 +251,13 @@ padding-bottom: 5%;
    overflow: auto;
 }
 
-.main_page h2{
+.main_page h1{
   padding-bottom: 5%;
   padding-top: 0;
 
 }
 
-.main_page h3{
+.main_page h2{
   font-size: 150%;
   text-align: center;
 
@@ -359,9 +357,7 @@ padding-bottom: 5%;
       color: var(--pop-color);
   }
 
-  h2:hover {
-      color: var(--pop-color);
-  }
+
 
 
 
@@ -379,6 +375,12 @@ padding-bottom: 5%;
     width: 100%;
   }
 
+  #about_link {
+        color: black !important;
+    }
 
+    #about_link:hover{
+      color: var(--pop-color);
+    }
 
 }
