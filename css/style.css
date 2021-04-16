@@ -546,6 +546,10 @@ font-family:   var(--secondary-font);
 
   .index_column_left h2{
     margin-top: 10%;
+
+          font-size: 130%;
+
+
   }
 
 
