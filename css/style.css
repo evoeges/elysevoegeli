@@ -218,6 +218,7 @@ p {
 
 .icon_link a{
   color: black;
+  background-color: white;
 }
 
 .icon_link a:hover {
@@ -225,6 +226,7 @@ p {
     font-weight:none;
     color: var(--pop-color);
     background: none;
+
 }
 
 
@@ -534,7 +536,7 @@ font-family:   var(--secondary-font);
 
   .index_list h2 {
     text-align: left;
-    font-size: 90%;
+    font-size: 110%;
     padding-top: 10%;
   }
 
@@ -544,7 +546,7 @@ font-family:   var(--secondary-font);
 
 
     .index_column_left p{
-      font-size: 95%;
+      font-size: 100%;
       line-height: 1.4;
       padding-top: 1%;
     }
