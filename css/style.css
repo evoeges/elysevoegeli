@@ -239,6 +239,7 @@ strong {
 }
 
 a {
+  background-color: var(--pop-color2);
   color: var(--pop-color);
   text-decoration: none;
 }
