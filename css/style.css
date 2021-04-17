@@ -291,8 +291,11 @@ padding-bottom: 5%;
     width: 40%;
     height: 40%;
     text-align: left;
-    padding-bottom: 5%;
-    padding-top:10%;
+    margin-bottom: 5%;
+    margin-top:10%;
+
+    border: 5px solid var(--pop-color2);
+    border-radius: 50%;
 
 
   }
