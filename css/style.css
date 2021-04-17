@@ -39,10 +39,12 @@ p {
 }
 
 .profile_image{
-  width: 30%;
-  height: 30%;
+  width: 40%;
+  height: 40%;
   text-align: right;
-  padding-bottom: 5%;
+  margin-bottom: 5%;
+  border: 5px solid var(--pop-color2);
+  border-radius: 50%;
 
 }
 
@@ -291,6 +293,7 @@ padding-bottom: 5%;
     text-align: left;
     padding-bottom: 5%;
     padding-top:10%;
+
 
   }
 
