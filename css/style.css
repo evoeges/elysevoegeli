@@ -157,7 +157,7 @@ p {
 
 .image_caption{
   font-size: 90%;
-  text-align: center;
+  text-align: left;
   font-family: var(--secondary-font);
   padding-top: 1%;
 
