@@ -287,12 +287,14 @@ padding-bottom: 5%;
   color: var(--pop-color);
   z-index: 1;
   padding-bottom: 20px;
+  margin-left: 0px;
 
 }
 
 .page_header h1{
   color: var(--pop-color);
 text-align: left;
+padding-left: 0px;
 }
 
 .col-md-2{
@@ -303,70 +305,13 @@ text-align: left;
 .page_header .col-md-2{
   margin-right: 15px;
 }
+
 .page-container{
 
   position: relative;
   top: 140px;
 }
-@media only screen and (max-width: 900px) {
 
-  .col-md-2{
-    text-align: left;
-  }
-
-  .page_header{
-    padding-bottom: 10px;
-  }
-
-  .page_header h1{
-padding-left: 15px;
-padding-top:10px;
-padding-bottom: 0;
-  }
-
-  .page-container{
-    top: 100px;
-  }
-
-  .intro{
-      text-align: left;
-
-  }
-
-  .profile_image{
-    width: 40%;
-    height: 40%;
-    text-align: left;
-    margin-bottom: 5%;
-    margin-top:10%;
-
-    border: 5px solid var(--pop-color2);
-    border-radius: 50%;
-
-
-  }
-
-
-
-  .intro h1{
-    color: var(--pop-color);
-    text-align: left;
-  }
-
-  .intro p{
-    text-align: left;
-  }
-
-
-
-  .desktop_only{
-    display: none;
-  }
-
-  .mobile_only{
-    display: block;
-  }
-}
 
 .heart_icon{
   width: 15px;
@@ -469,7 +414,78 @@ font-family:   var(--secondary-font);
 
 }
 
+/*TABLET CSS */
+@media only screen and (max-width: 900px) {
 
+  .col-md-2{
+    text-align: left;
+  }
+
+  .page_header{
+    padding-bottom: 10px;
+  }
+
+  .page_header h1{
+    padding-left: 0px;
+      padding-top:10px;
+        padding-bottom: 0;
+  }
+
+  .page-container{
+    top: 100px;
+  }
+
+  .intro{
+      text-align: left;
+
+  }
+
+  .profile_image{
+    width: 40%;
+    height: 40%;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top:10%;
+
+    border: 5px solid var(--pop-color2);
+    border-radius: 50%;
+
+
+  }
+
+
+
+  .intro h1{
+    color: var(--pop-color);
+    text-align: left;
+  }
+
+  .intro p{
+    text-align: left;
+  }
+
+
+
+  .desktop_only{
+    display: none;
+  }
+
+  .mobile_only{
+    display: block;
+  }
+
+  .index_column_left{
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+}
+
+  .index_column_right {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+}
 
 
 /*MOBILE CSS */
@@ -482,9 +498,7 @@ font-family:   var(--secondary-font);
     padding-bottom: 10%;
 
     padding-top: 10%;
-
-
-  }
+}
 
   .index_column_left .toc {
 
@@ -524,7 +538,7 @@ font-family:   var(--secondary-font);
 
   .container {
       position: relative;
-      width: 80%;
+
 
   }
 
@@ -584,7 +598,15 @@ font-family:   var(--secondary-font);
 
 
   .container-fluid{
-    width: 95%;
+
+  }
+
+  .page_header {
+    margin-left:0px;
+  }
+
+  .page_header h1{
+  padding-left:0px;
   }
 
   .art_pages{
