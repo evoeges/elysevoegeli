@@ -69,7 +69,7 @@ h1 {
     color: #424242;
     font-size: 50px;
 
-    padding-top:40px;
+    padding-top:20px;
 
 }
 
@@ -168,6 +168,7 @@ p {
   display: block;
     margin-left: auto;
     margin-right: auto;
+        border: 5px solid var(--pop-color2);
 }
 .overlay {
     position: absolute;
@@ -279,8 +280,53 @@ padding-bottom: 5%;
   color: none;
 }
 
+.page_header {
+  background-color: var(--pop-color2);
+  position: fixed;
+  width: 100vw;
+  color: var(--pop-color);
+  z-index: 1;
+  padding-bottom: 20px;
+
+}
+
+.page_header h1{
+  color: var(--pop-color);
+text-align: left;
+}
+
+.col-md-2{
+  text-align: right;
+}
+
+
+.page_header .col-md-2{
+  margin-right: 15px;
+}
+.page-container{
+
+  position: relative;
+  top: 140px;
+}
 @media only screen and (max-width: 900px) {
 
+  .col-md-2{
+    text-align: left;
+  }
+
+  .page_header{
+    padding-bottom: 10px;
+  }
+
+  .page_header h1{
+padding-left: 15px;
+padding-top:10px;
+padding-bottom: 0;
+  }
+
+  .page-container{
+    top: 100px;
+  }
 
   .intro{
       text-align: left;
@@ -454,6 +500,7 @@ font-family:   var(--secondary-font);
       font-size: 200%;
 
       padding-top:10%;
+
   }
 
   h2{
