@@ -163,6 +163,10 @@ p {
 
 }
 
+.art_caption{
+  text-align: center;
+}
+
 .body_images_horizontal{
   width: 100%;
   display: block;
@@ -412,6 +416,10 @@ font-family:   var(--secondary-font);
   margin-bottom: 0%;
 
 
+}
+
+.art_header h1{
+  text-align:center;
 }
 
 /*TABLET CSS */
