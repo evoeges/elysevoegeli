@@ -19,3 +19,12 @@ $(document).ready(function(){
     $(".ticketing_text").slideUp();
    });
   });
+
+
+/*
+function setColor(){
+
+  var backgroundColors =['#FFE7D6', '#DDF9F0', '#FFF4D5', "#F6D5FF"]
+  var colorChoice=(backgroundColors[Math.floor(Math.random()*backgroundColors.length)])
+  $(':root').css('--pop-color2', colorChoice);
+} */
