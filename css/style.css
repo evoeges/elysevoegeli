@@ -1,8 +1,10 @@
 /* wow messy code! please excuse */
 
 :root {
-  --pop-color: #008290;
-  --pop-color2: #FFE7D6; 
+  --pop-color: #007F8C;
+  /* --pop-color: #008290;
+  --pop-color2: #FFE7D6; */
+  --pop-color2: #E1FFF6;
   --main-font:   'Lato', sans-serif ;
   --secondary-font: 'Ubuntu Mono', monospace;
 
