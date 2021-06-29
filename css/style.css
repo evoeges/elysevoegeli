@@ -597,7 +597,7 @@ font-family:   var(--secondary-font);
   a:hover {
       text-decoration:none;
       font-weight:none;
-      color: var(--pop-color);
+    
   }
 
 
